@@ -18,7 +18,7 @@ body {
 }
 
 .first-section{
-    background: url("./Gemini_generated1.png") center/cover no-repeat;
+    background: url("./Gemini_Generated1.png") center/cover no-repeat;
     width: 100%;
     height: 35%;
     position: relative;
@@ -181,7 +181,7 @@ li{
 .third-section{
     width: 100%;
     height: 35%;
-    background: url("./Gemini_generated2.png") center/cover no-repeat;
+    background: url("./Gemini_Generated2.png") center/cover no-repeat;
     position : relative ;
 }
 
