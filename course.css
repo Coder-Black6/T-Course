@@ -1,0 +1,184 @@
+body {
+    background: black;
+    margin: 0;
+    font-family : ;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+.container-1{
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    position: relative;
+}
+
+.hero{
+    background: url("./webdesign1.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay {
+    position: absolute;
+    background:radial-gradient(circle,
+        rgba(0,0,0,0.1) 0%,
+        rgba(0,0,0,0.6) 50%,
+        rgba(0,0,0,0.95) 100% );
+    inset:0;
+}
+
+.container-2{
+    width:100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column ;
+    background: black;
+    justify-content : center ;
+    align-items: center ;
+}
+
+.text-container {
+    width: 80%;
+    height: 20%;
+    display : flex ;
+    flex-direction : column ;
+    justify-content : center ;
+    position : relative ;
+}
+
+.course-container{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display : flex ;
+    justify-content : center ;
+    align-items : flex-start;
+    flex-direction : row ;
+    flex-wrap: wrap;
+}
+.text-1{
+    color: white ;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    font-weight: bold ;
+    text-align: center ;
+    display : flex ;
+    justify-content : center ;
+  }
+
+.text-2{
+    color: white ;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold ;
+    text-align: center ;
+    display : flex ;
+    justify-content : center ;
+    margin-top :-10px ;
+  }
+  
+  .text-1::after{
+      content: "";
+      background: white;
+      width: 200px;
+      height: 5px;
+      position : absolute ;
+      bottom: 130px;
+  }
+  
+.modules{
+    width: 40%;
+    height: 45%;
+    border-radius: 10px;
+    margin: 20px;
+    overflow : hidden ;
+    position : relative ;
+    border: 2px solid rgba(0,255,255,0.5);
+    box-shadow: 0 0 20px rgba(0,255,255,0.4);
+} 
+
+
+.modules img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+    opacity : 0.6;
+}
+
+.modules .text{
+    position : absolute ;
+    bottom :15px;
+    left: 15px;
+    color : white ;
+    font-weight : bold ;
+    font-size : 40px;
+}
+
+.modules .btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.container-3{
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    position: relative;
+}
+
+.hero2{
+    background: url("./webdev1.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay2 {
+    position: absolute;
+    background:radial-gradient(circle,
+        rgba(0,0,0,0.1) 0%,
+        rgba(0,0,0,0.6) 50%,
+        rgba(0,0,0,0.95) 100% );
+    inset:0;
+}
+
+.container-4{
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    position: relative;
+}
+
+.hero3{
+    background: url("./digitmark1.jpeg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay3 {
+    position: absolute;
+    background:radial-gradient(circle,
+        rgba(0,0,0,0.1) 0%,
+        rgba(0,0,0,0.6) 50%,
+        rgba(0,0,0,0.95) 100% );
+    inset:0;
+}
