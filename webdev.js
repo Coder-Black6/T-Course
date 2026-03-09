@@ -4,22 +4,22 @@ const modules =[
     {
         title : "Module 1",
         image : "webdev1.jpeg",
-        link :  "#"
+        link :  "https://selar.com/2i1a175402"
     },
     {
         title : "Module 2",
         image : "webdev1.jpeg",
-        link :  "#"
+        link :  "https://selar.com/35009deb70"
     },
     {
         title : "Module 3",
         image : "webdev1.jpeg",
-        link :  "#"
+        link :  "https://selar.com/758jbypo71"
     },
     {
         title : "Module 4",
         image : "webdev1.jpeg",
-        link :  "#"
+        link :  "https://selar.com/r8m27l5h95"
     },
     {
         title : "Module 5",
